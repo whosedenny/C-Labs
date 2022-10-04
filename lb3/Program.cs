@@ -1,38 +1,107 @@
-﻿using System;
-namespace lb3
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Practice3
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int f, s, t;
-            bool flag = false;
-            do
-            {
-                Console.WriteLine("Введіть перше число: ");
-                flag = int.TryParse(Console.ReadLine(), out f);
-            } while (f <= 0 || !flag);
-            flag = false;
-            do
-            {
-                Console.WriteLine("Введіть друге число: ");
-                flag = int.TryParse(Console.ReadLine(), out s);
-            } while (s <= 0 || !flag);
-            flag = false;
-            do
-            {
-                Console.WriteLine("Введіть третє число: ");
-                flag = int.TryParse(Console.ReadLine(), out t);
-            } while (t <= 0 || !flag);
+            Queen queen = new Queen(new Point(4, 1), new Point(2, 3));
 
-            if (f == s || s== t || t == f)
+            Console.WriteLine(Checker.check(queen));
+
+            queen.setEnd(new Point(3, 3));
+
+            Console.WriteLine(Checker.check(queen));
+
+            Console.ReadKey();
+        }
+    }
+
+    interface Chessmen {
+        bool canGoThere();
+    }
+
+    class Queen : Chessmen {
+
+        private Point start;
+        private Point end;
+
+        public Queen(Point start, Point end) {
+            this.start = start;
+            this.end = end;
+        }
+
+        public Point getStart()
+        {
+            return this.start;
+        }
+
+        public void setStart(Point newPoint)
+        {
+            this.start = newPoint;
+        }
+
+        public Point getEnd()
+        {
+            return this.end;
+        }
+
+        public void setEnd(Point newPoint)
+        {
+            this.end= newPoint;
+        }
+
+
+        public bool canGoThere()
+        {
+            if (Math.Abs(start.getX() - end.getX()) == Math.Abs(start.getY() - end.getY())
+                 || start.getX() == end.getX()
+                 || start.getY() == end.getY())
             {
-                Console.WriteLine("Серед цих трьох цілих чисел є хоча б одна пара співпадаючих.");
+                return true;
             }
-            else
-            {
-                Console.WriteLine("Серед цих трьох цілих чисел немає хоча б одної пара співпадаючих.");
-            }
+            return false;
+        }
+    }
+
+    class Checker {
+        public static bool check(Queen queen) {
+            return queen.canGoThere();
+        }
+    }
+
+    class Point {
+        private int x;
+        private int y;
+
+        
+
+        public Point(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+
+        public int getX() {
+            return this.x;
+        }
+        public void setX(int x) {
+            this.x = x;
+        }
+
+        public int getY() {
+            return this.y;
+        }
+
+        public void setY(int y) {
+            this.y = y;
+        }
+    }
+}
         }
     }
 }
