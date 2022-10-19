@@ -6,7 +6,7 @@ namespace lb3
     {
         static void Main(string[] args)
         {
-            // 469  q1 = 6 / 4; q2 = 9 / 6;  q1 == q2
+            
             int n;
             do
             {
