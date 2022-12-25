@@ -6,6 +6,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        LW9.Circle circle = new Circle("Penis");
+        LW9.Circle circle = new Circle("Name");
     }
 }
