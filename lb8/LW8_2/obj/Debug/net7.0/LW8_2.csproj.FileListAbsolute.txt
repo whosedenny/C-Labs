@@ -1,0 +1,15 @@
+C:\Users\akina\OneDrive\Документы\C#\DUT\LFM_01\LW8_2\bin\Debug\net7.0\LW8_2.exe
+C:\Users\akina\OneDrive\Документы\C#\DUT\LFM_01\LW8_2\bin\Debug\net7.0\LW8_2.deps.json
+C:\Users\akina\OneDrive\Документы\C#\DUT\LFM_01\LW8_2\bin\Debug\net7.0\LW8_2.runtimeconfig.json
+C:\Users\akina\OneDrive\Документы\C#\DUT\LFM_01\LW8_2\bin\Debug\net7.0\LW8_2.dll
+C:\Users\akina\OneDrive\Документы\C#\DUT\LFM_01\LW8_2\bin\Debug\net7.0\LW8_2.pdb
+C:\Users\akina\OneDrive\Документы\C#\DUT\LFM_01\LW8_2\obj\Debug\net7.0\LW8_2.csproj.AssemblyReference.cache
+C:\Users\akina\OneDrive\Документы\C#\DUT\LFM_01\LW8_2\obj\Debug\net7.0\LW8_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akina\OneDrive\Документы\C#\DUT\LFM_01\LW8_2\obj\Debug\net7.0\LW8_2.AssemblyInfoInputs.cache
+C:\Users\akina\OneDrive\Документы\C#\DUT\LFM_01\LW8_2\obj\Debug\net7.0\LW8_2.AssemblyInfo.cs
+C:\Users\akina\OneDrive\Документы\C#\DUT\LFM_01\LW8_2\obj\Debug\net7.0\LW8_2.csproj.CoreCompileInputs.cache
+C:\Users\akina\OneDrive\Документы\C#\DUT\LFM_01\LW8_2\obj\Debug\net7.0\LW8_2.dll
+C:\Users\akina\OneDrive\Документы\C#\DUT\LFM_01\LW8_2\obj\Debug\net7.0\refint\LW8_2.dll
+C:\Users\akina\OneDrive\Документы\C#\DUT\LFM_01\LW8_2\obj\Debug\net7.0\LW8_2.pdb
+C:\Users\akina\OneDrive\Документы\C#\DUT\LFM_01\LW8_2\obj\Debug\net7.0\LW8_2.genruntimeconfig.cache
+C:\Users\akina\OneDrive\Документы\C#\DUT\LFM_01\LW8_2\obj\Debug\net7.0\ref\LW8_2.dll
